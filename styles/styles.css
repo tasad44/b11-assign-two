@@ -1,0 +1,224 @@
+
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.raleway-font {
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+/* shared style */
+.display-flex {
+    display: flex;
+}
+.section-heading{
+    font-weight: bold;
+    font-size: 3.8rem;
+    color: black;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.btn-primary{
+    color: white;
+    font-weight: bold;
+    font-size: 1.25rem;
+    border-radius: 12px;
+    padding: 12px 45px;
+    background-color: black;
+}
+
+/* header section style */
+/* nav bar style */
+header{
+    
+}
+.head-container{
+    margin: 20px 140px;
+   justify-content: space-around;
+   align-items: center;
+   margin-bottom: 0px;
+}
+.nav-item{
+    list-style: none;
+    
+}
+.nav-link{
+    text-decoration: none;
+    margin-right: 50px;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+.bag{
+    height: 3.9rem;
+    width: 3.9rem;
+}
+.school{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.logo{
+   align-items: center;
+   gap: 11px;
+}
+.Home{
+    color: rgba(254, 163, 1, 1);
+}
+.About{
+    color: skyblue;
+}
+.Facilities{
+    color: rgba(5, 212, 223, 1);
+}
+.Admission{
+    color: rgba(93, 88, 239, 1);
+}
+/* contact button */
+.contact{
+    color: white;
+    background-color: rgba(254, 163, 1, 1);
+    padding: 10px 60px;
+    border: none;
+    padding: 10px 60px;
+    border-radius: 12px;
+    font-weight: 400;
+    font-size: 20px;
+}
+/* banner style */
+.margin{
+    margin: 0px 0px 0px 350px;
+}
+.banner-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 120px;
+    margin-top: 0px;
+    margin-left: 0px;
+    align-content: center;
+   
+}
+
+.banner-title{
+    font-size: 4.5rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.empowering{
+    color: orange;
+}
+.towards{
+    color: rgba(1, 172, 253, 1);
+}
+.banner-description{
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: left;
+    
+}
+/* standard-curriculum section  */
+
+.card-container{
+    margin: 80px 140px;
+    gap: 28px;
+}
+.card{
+    justify-items: center;
+    align-items: center;
+    padding: 3.5rem 3.5rem;
+
+}
+.card-icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+.card-heading{
+    color: rgba(32, 32, 32, 1);
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+   
+}
+.card-description{
+    color: rgba(128, 128, 128, 1);
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+    padding: 33px 40px;
+    margin-top: 2rem;
+    margin-bottom: 0px;
+
+}
+.read-more{
+    text-align: center;
+    margin-top: 2.5rem;
+    margin-bottom: 3.6rem;
+    font-weight: bold;
+    font-size: .95rem;
+}
+#first-read-more{
+    color: rgba(186, 186, 186, 1);
+}
+#second-read-more{
+    color: rgba(240, 170, 0, 1);
+}
+#third-read-more{
+    color: rgba(135, 0, 255, 1);
+}
+.kinder{
+    border-color: rgba(222, 245, 255, 1);
+    background-color: rgba(222, 245, 255, 1);
+    box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    border-radius: 15.09px;
+}
+.elementary{
+    background-color: rgba(255, 244, 220, 1);
+    border-radius: 1.5rem;
+    border-color: rgba(159, 119, 30, 1);
+    box-shadow: 0px 0px 28.3px 0.94px rgba(159, 119, 30, 1);
+}
+.middle{
+    background-color:rgba(242, 232, 255, 1);
+    border-radius: 1.5rem;
+    box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+
+}
+.curriculum-button{
+    width: 3.75rem;
+    height: 3.75rem;
+    border-radius: 50%;
+    color: white;
+    font-size: 1.5rem;
+    background-color: rgba(254, 163, 1, 1);
+    border: none;
+}
+.curriculum-button-container{
+ justify-content: center;
+ gap: 0.625rem;
+}
+/* our stories section style */
+.secondary-button{
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 3rem;
+    color: white;
+    font-family: "raleway";
+    border: none;
+
+}
+.aqua-button-color{
+    background-color: rgba(60, 216, 232, 1);
+}
+.chanteuse-button-color{
+    background-color: rgba(149, 178, 38, 1);
+}
+.darkslateblue-button-color{
+    background-color: rgba(93, 88, 240, 1);
+}
