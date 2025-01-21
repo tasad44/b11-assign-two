@@ -32,7 +32,9 @@
     padding: 12px 45px;
     background-color: black;
 }
-
+.standard-curriculum-our-story{
+    background-image: url(../B11-A2-Kids-School-main/assets/bg.png);
+}
 /* header section style */
 /* nav bar style */
 header{
@@ -211,6 +213,8 @@ header{
     color: white;
     font-family: "raleway";
     border: none;
+    position: relative;
+
 
 }
 .aqua-button-color{
@@ -222,3 +226,20 @@ header{
 .darkslateblue-button-color{
     background-color: rgba(93, 88, 240, 1);
 }
+.first-story-heading{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.first-story-description{
+    font-weight: 500;
+    font-size: 0.95rem;
+    color: rgba(102, 102, 102, 1);
+}
+.story-heading{
+    font-weight: bold;
+    font-size: 0.96rem;
+}
+.our-story-viewall-button-container{
+    justify-content: center;
+}
+/* footer section style */
