@@ -106,7 +106,7 @@
     gap: 3rem;
     margin-top: 0px;
     margin-left: 13rem;
-   max-width: 80vw;
+   /* max-width: 80vw; */
 }
 
 .banner-title{
@@ -130,7 +130,7 @@
 
 
 .card-container{
-    margin: 5rem 11rem;
+    margin: 5rem 1.5rem;
     gap: 28px;
 }
 .card{
@@ -182,7 +182,7 @@
     background-color: rgba(222, 245, 255, 1);
     box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
     border-radius: 15.09px;
-    background: linear-gradient( to bottom, rgba(250, 210, 210, 1) 50%, rgba(255, 245, 255, 1) );
+    background: linear-gradient( to bottom, #509399 20%,  #AFC1C9 30%, #DEF5FF 50% );
 }
 .elementary{
     background-color: rgba(255, 244, 220, 1);
@@ -264,7 +264,8 @@
 }
 .our-story-viewall-button-container{
     justify-content: center;
-   padding-bottom: 2rem;
+   padding-bottom: 5rem;
+   margin-top: 5rem;
    
 }
 
@@ -354,41 +355,182 @@
     width: 3rem;
     border: 0.15rem solid black;
 }
-.menu-bar{
+.menu-bar, .horizontal-line-for-mobile-screen {
     display: none;
 }
 
+
+
+
+
 /* responsive for small device */
 @media screen and (max-width: 576px) {
+   
+/* common */
 
-.nav-bar, .contact, .curriculum-button, .school{
+.nav-bar, .contact, .curriculum-button, .school, .school-name, .story-first{
     display: none;
 }
 .menu-bar{
     display: flex;
     position: relative;
-    top: 15px;
-   left: 220px;
     
 
 }
-
 .head-container{
     display: flex;
     justify-content: space-between;
-    
 }
 
-.banner-container, .card-container, .footer-container {
+.horizontal-line-for-mobile-screen {
+    display: block;
+    color: orange;
+    border: 1px solid orange;
+    width: 100%;
+}
+
+.hero-kids{
+    max-width: 100%;
+    margin-left: 0px auto;
+}
+ 
+
+.banner-container {
     flex-direction: column-reverse;
     flex-wrap: wrap;
+    margin: 10px auto;
+}
+.card-container, .footer-container{
+    flex-direction: column;
 }
 
 .story-container{
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 1.1rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .8rem;
 }
+
+.head-container, .banner-container, .card-container, .footer-container {
+margin: 0px auto;
 
     
 }
+
+
+/* banner */
+.banner-title{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin: 10px 0px;
+}
+.banner-description{
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+
+}
+
+
+.btn-primary{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 6px 24px;
+    background-color: black;
+}
+/* standard curriculum */
+.section-heading{
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+.card-container{
+    margin: 12px 16px;
+    gap: 28px;
+}
+.card{
+    justify-items: center;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    max-width: 90vw;
+
+}
+.card-icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 41px;
+    margin-bottom: 31px;
+}
+.card-heading{
+    color: rgba(32, 32, 32, 1);
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+   
+}
+.card-description{
+    color: rgba(128, 128, 128, 1);
+    font-weight: 500;
+    font-size: 10px;
+    text-align: center;
+    padding: 1rem 0rem;
+}
+.read-more{
+    
+    font-size: 10px;
+}
+
+.story-heading{
+   
+    font-size: 9.13px;
+   
+
+}
+.secondary-button{
+    font-weight: 500;
+    font-size: 10px;
+    border-radius: 28px;
+    padding: 5px 11px;
+   
+}
+
+.footer-container, .kids-education-container, .about-school-container, .icon-container{
+    margin: 20px auto ;
+}
+/* footer */
+.kids-education{
+
+    font-size: 35px;
+       
+}
+
+.kids-education-description{
+    font-size: 16px;
+    margin: 10px auto;
+   
+}
+.about-school-heading{
+    font-weight: 600;
+    font-size: 20px;
+
+
+}
+.about{
+    font-weight: 500;
+    font-size: 16px;
+}
+#keep{
+    margin: 0px auto;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+
+}
+
