@@ -11,7 +11,11 @@
     font-optical-sizing: auto;
     font-style: normal;
   }
-
+ .school-name{
+    color: orchid;
+    font-weight: 600;
+    font-size: 3rem;
+ }
 /* shared style */
 .story-container, .card-container{
 
@@ -344,4 +348,47 @@
     gap: 0.525rem;
     margin-top: 2rem;
    
+}
+/* menu bar icon style */
+.menu-bar{
+    width: 3rem;
+    border: 0.15rem solid black;
+}
+.menu-bar{
+    display: none;
+}
+
+/* responsive for small device */
+@media screen and (max-width: 576px) {
+
+.nav-bar, .contact, .curriculum-button, .school{
+    display: none;
+}
+.menu-bar{
+    display: flex;
+    position: relative;
+    top: 15px;
+   left: 220px;
+    
+
+}
+
+.head-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.banner-container, .card-container, .footer-container {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+}
+
+.story-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.1rem;
+}
+
+    
 }
